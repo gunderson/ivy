@@ -1,0 +1,20 @@
+[] Break video into frames
+[] diff frames in sets of 24
+[] make image masks
+[] make montage 720x405 13 frames per key (for color and b/w)
+	- looks like 2k frames would be ideal (1920x1080)
+	- determine keyframe quality (image size = frameWidth/quality)
+	- will need to make this variable for 
+[] test compression with jpg and with png8
+
+
+[] load key frames
+[] play audio
+[] on rAF, play the correct frame for the time (if required draw multiple frames)
+[] jump to frame by drawing prev keyframe + intermediates
+
+[] build buffer system
+[] calculate canplaythrough 
+[] drop loayed frames
+
+[] make keyframe width variable based on the diff

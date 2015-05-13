@@ -1,0 +1,18 @@
+{
+  "name": "ivy_processor",
+  "version": "0.0.0",
+  "description": "Processes video files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PJG",
+  "license": "MIT",
+  "dependencies": {
+    "child-process-promise": "^1.0.2",
+    "colors": "^1.1.0",
+    "q": "^1.4.0",
+    "q-io": "^1.12.0",
+    "yargs": "^3.9.0"
+  }
+}
